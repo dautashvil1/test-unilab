@@ -1,0 +1,30 @@
+.parent-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 2000px;
+    width: 100%;
+}
+.parent-div .child{
+    width: 300px;
+    height: 300px;
+    margin-right:20px;
+}
+.first{
+    background-color: red;
+}
+.second{
+    background-color: yellow;
+}
+.third{
+    background-color: aqua;
+}
+
+#pol{
+    width:400px;
+    height:300px;
+    text-align:center;
+    display:none;
+    margin-top:0;
+    margin:10px;
+}
